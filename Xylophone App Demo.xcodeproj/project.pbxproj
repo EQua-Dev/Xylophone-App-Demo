@@ -13,6 +13,13 @@
 		79C34E5F2955705B009FE903 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79C34E5D2955705B009FE903 /* Main.storyboard */; };
 		79C34E6129557075009FE903 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79C34E6029557075009FE903 /* Assets.xcassets */; };
 		79C34E6429557075009FE903 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79C34E6229557075009FE903 /* LaunchScreen.storyboard */; };
+		79DBCDB3295584470020B484 /* F.wav in Resources */ = {isa = PBXBuildFile; fileRef = 79DBCDAC295584460020B484 /* F.wav */; };
+		79DBCDB4295584470020B484 /* D.wav in Resources */ = {isa = PBXBuildFile; fileRef = 79DBCDAD295584460020B484 /* D.wav */; };
+		79DBCDB5295584470020B484 /* E.wav in Resources */ = {isa = PBXBuildFile; fileRef = 79DBCDAE295584460020B484 /* E.wav */; };
+		79DBCDB6295584470020B484 /* A.wav in Resources */ = {isa = PBXBuildFile; fileRef = 79DBCDAF295584460020B484 /* A.wav */; };
+		79DBCDB7295584470020B484 /* B.wav in Resources */ = {isa = PBXBuildFile; fileRef = 79DBCDB0295584460020B484 /* B.wav */; };
+		79DBCDB8295584470020B484 /* G.wav in Resources */ = {isa = PBXBuildFile; fileRef = 79DBCDB1295584460020B484 /* G.wav */; };
+		79DBCDB9295584470020B484 /* C.wav in Resources */ = {isa = PBXBuildFile; fileRef = 79DBCDB2295584470020B484 /* C.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +31,13 @@
 		79C34E6029557075009FE903 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		79C34E6329557075009FE903 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		79C34E6529557075009FE903 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79DBCDAC295584460020B484 /* F.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = F.wav; sourceTree = "<group>"; };
+		79DBCDAD295584460020B484 /* D.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = D.wav; sourceTree = "<group>"; };
+		79DBCDAE295584460020B484 /* E.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = E.wav; sourceTree = "<group>"; };
+		79DBCDAF295584460020B484 /* A.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = A.wav; sourceTree = "<group>"; };
+		79DBCDB0295584460020B484 /* B.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = B.wav; sourceTree = "<group>"; };
+		79DBCDB1295584460020B484 /* G.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = G.wav; sourceTree = "<group>"; };
+		79DBCDB2295584470020B484 /* C.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = C.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +54,7 @@
 		79C34E4B2955705B009FE903 = {
 			isa = PBXGroup;
 			children = (
+				79DBCDAB295582B80020B484 /* Sounds */,
 				79C34E562955705B009FE903 /* Xylophone App Demo */,
 				79C34E552955705B009FE903 /* Products */,
 			);
@@ -65,6 +80,20 @@
 				79C34E6529557075009FE903 /* Info.plist */,
 			);
 			path = "Xylophone App Demo";
+			sourceTree = "<group>";
+		};
+		79DBCDAB295582B80020B484 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				79DBCDAF295584460020B484 /* A.wav */,
+				79DBCDB0295584460020B484 /* B.wav */,
+				79DBCDB2295584470020B484 /* C.wav */,
+				79DBCDAD295584460020B484 /* D.wav */,
+				79DBCDAE295584460020B484 /* E.wav */,
+				79DBCDAC295584460020B484 /* F.wav */,
+				79DBCDB1295584460020B484 /* G.wav */,
+			);
+			path = Sounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,9 +153,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				79DBCDB3295584470020B484 /* F.wav in Resources */,
+				79DBCDB8295584470020B484 /* G.wav in Resources */,
 				79C34E6429557075009FE903 /* LaunchScreen.storyboard in Resources */,
+				79DBCDB4295584470020B484 /* D.wav in Resources */,
+				79DBCDB5295584470020B484 /* E.wav in Resources */,
+				79DBCDB7295584470020B484 /* B.wav in Resources */,
 				79C34E6129557075009FE903 /* Assets.xcassets in Resources */,
+				79DBCDB9295584470020B484 /* C.wav in Resources */,
 				79C34E5F2955705B009FE903 /* Main.storyboard in Resources */,
+				79DBCDB6295584470020B484 /* A.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,6 +325,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ZG65SS3WVL;
 				INFOPLIST_FILE = "Xylophone App Demo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -308,6 +345,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ZG65SS3WVL;
 				INFOPLIST_FILE = "Xylophone App Demo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
